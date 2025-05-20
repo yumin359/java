@@ -1,7 +1,6 @@
-package ch15.leetcode.p1046;
+package ch15.leetcode.list.p1046;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 

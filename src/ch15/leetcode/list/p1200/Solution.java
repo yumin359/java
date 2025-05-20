@@ -1,4 +1,4 @@
-package ch15.leetcode.p1200;
+package ch15.leetcode.list.p1200;
 
 import java.util.ArrayList;
 import java.util.Collections;

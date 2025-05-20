@@ -1,4 +1,4 @@
-package ch15.leetcode.p119;
+package ch15.leetcode.list.p119;
 
 import java.util.ArrayList;
 import java.util.List;
