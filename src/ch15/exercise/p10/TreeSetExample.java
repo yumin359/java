@@ -17,5 +17,6 @@ public class TreeSetExample {
         Student student = treeSet.last();
         System.out.println("최고 점수: " + student.score);
         System.out.println("최고 점수를 받은 아이디: " + student.id);
+        //
     }
 }
