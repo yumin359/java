@@ -7,6 +7,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+import static java.util.stream.Collectors.averagingDouble;
+import static java.util.stream.Collectors.groupingBy;
+
 public class CollectExample {
     public static void main(String[] args) {
         List<Student> totalList = new ArrayList<>();
@@ -17,9 +20,9 @@ public class CollectExample {
 
         Map<String, Double> map = totalList.stream()
                 .collect(
-                        Collectors.groupingBy(
-                                s -> s.getSex(),
-                                Collectors.averagingDouble(s -> s.getScore())
+                        groupingBy(
+                                Student::getSex,
+                                averagingDouble(Student::getScore)
                         )
                 );
         System.out.println(map);
