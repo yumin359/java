@@ -14,6 +14,9 @@ public class App05 {
         OutputStream os = new FileOutputStream(outputFileName);
 
         try (is; os;) {
+            // is os가 위에 선언되어 있으니까 이름만 가져온거고,
+            // 저거 한 줄을 가져온거랑 의미는 같음
+            // 그리고 is os 둘 다 try 블록이 끝나면 close()를 가져오게 됨.
             byte[] bucket = new byte[1000];
             int length = 0;
             while ((length = is.read(bucket)) != -1) {
