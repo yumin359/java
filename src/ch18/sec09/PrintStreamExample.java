@@ -4,6 +4,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
 
+//
 public class PrintStreamExample {
     public static void main(String[] args) throws IOException {
         FileOutputStream fos = new FileOutputStream("C:/Temp/printstream.txt");

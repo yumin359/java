@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.io.PrintStream;
 
+//
 public class App07 {
     public static void main(String[] args) throws IOException {
         String file = "C:/Temp/filter07.txt";
