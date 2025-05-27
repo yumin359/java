@@ -2,6 +2,7 @@ package ch18.lecture.p05filter;
 
 import java.io.*;
 
+//
 public class App10 {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         // 직렬화 가능한 객체만

@@ -2,6 +2,7 @@ package ch18.sec10;
 
 import java.io.Serializable;
 
+//
 public class Member implements Serializable {
     private static final long serialVersionUID = -622284561026710240L;
     private String id;

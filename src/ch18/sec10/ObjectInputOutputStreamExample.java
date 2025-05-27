@@ -3,6 +3,7 @@ package ch18.sec10;
 import java.io.*;
 import java.util.Arrays;
 
+//
 public class ObjectInputOutputStreamExample {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         FileOutputStream fos = new FileOutputStream("C:/Temp/object.dat");
